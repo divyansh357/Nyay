@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "NyayaSetu",
+    "slug": "nyayasetu-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/nyayasetu-logo.png",
+    "splash": {
+      "image": "./assets/nyayasetu-logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.nyayasetu.mobile"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "429b978b-214b-4ea8-8821-7389fdbdd389"
+      }
+    }
+  }
+}
